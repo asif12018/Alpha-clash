@@ -38,4 +38,11 @@ function getTextElementValueBy(elementId){
 function setTextElementValueById(elementId, value){
     const element = document.getElementById(elementId);
     element.innerText = value;
+    
+}
+
+
+function getElementTextById(id){
+    const alphabat = document.getElementById(id).innerText;
+    return alphabat
 }
